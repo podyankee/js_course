@@ -1,0 +1,25 @@
+.wrapper.clearfix
+    .player-0-panel.active
+        #name-0.player-name Player 1
+        #score-0.player-score 43
+        .player-current-box
+            .player-current-label Current
+            #current-0.player-current-score 11
+    .player-1-panel
+        #name-1.player-name Player 2
+        #score-1.player-score 72
+        .player-current-box
+            .player-current-label Current
+            #current-1.player-current-score 0
+    button.btn-new
+        i.ion-ios-plus-outline
+        | New game
+    button.btn-roll
+        i.ion-ios-loop
+        | Roll dice
+    button.btn-hold
+        i.ion-ios-download-outline
+        | Hold
+    input(type="text", placeholder="Final score").final-score
+    img.dice(src='assets/img/dice-5.png', alt='Dice')#dice-1
+    img.dice(src='assets/img/dice-5.png', alt='Dice')#dice-2

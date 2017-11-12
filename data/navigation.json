@@ -1,0 +1,60 @@
+{
+    "headerNavInfo": {
+        "howOrder" : {
+            "title": "Как заказать",
+            "link": "#", 
+            "icon": "basket"
+        },
+        "payment" : {
+            "title": "Оплата",
+            "link": "#", 
+            "icon": "wallet"
+        },
+        "delivery" : {
+            "title": "Доставка",
+            "link": "#", 
+            "icon": "shipped"
+        }
+
+    },
+    "headerNavConnect": {
+        "location" : {
+            "title": "Лондон",
+            "link": "#", 
+            "icon": "location"
+        },
+        "login" : {
+            "title": "Войти",
+            "link": "#", 
+            "icon": "login"
+        },
+        "register" : {
+            "title": "Зарегистрироваться",
+            "link": "#", 
+            "icon": "register"
+        }
+
+    },
+    "headerNavUser": {
+        "comparition" : {
+            "title": "Сравнение",
+            "link": "#", 
+            "icon": "scales",
+            "number": "17"
+        },
+        "favorities" : {
+            "title": "Избранное",
+            "link": "#", 
+            "icon": "favorities",
+            "number": "4"
+        },
+        "basket" : {
+            "title": "Корзина",
+            "link": "#", 
+            "icon": "basket1",
+            "number": "23"
+
+        }
+
+    }
+}

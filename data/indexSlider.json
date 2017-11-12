@@ -1,0 +1,76 @@
+{
+    "slide1": {
+            "title" : {
+                "line1": "Чугунная",
+                "line2": "кастрюля Staub"
+            },
+            "alt" : "Слайдер на главной странице",
+            "image" : "slide_1.jpeg",
+            "colorsTitle": "Цвета",
+            "colors" : {
+               "black": {
+                   "name" : "Черный",
+                   "code" : "#000000"
+               },
+               "cherry": {
+                   "name" : "Вишневый",
+                   "code" : "#d93639"
+               },
+               "grey": {
+                   "name" : "Серый графит",
+                   "code" : "#9a988c"
+               }
+            } ,
+            "parametersTitle": "Параметры",
+            "parameters" : {
+        
+               "diameter": {
+                   "value" : "30 см",
+                   "icon" : "diameter"
+               },
+               "amount": {
+                   "value" : "8,35 л",
+                   "icon" : "bowl"
+               }
+               
+               }
+            },
+    "slide2": {
+            "title" : {
+                "line1": "Чугунная",
+                "line2": "кастрюля Staub"
+            },
+             "alt" : "Слайдер на главной странице",
+            "image" : "slide_1.jpeg",
+             "colorsTitle":  "Цвета",
+            "colors" : {
+               "title": "Цвета",
+               "black": {
+                   "name" : "Черный",
+                   "code" : "#000000"
+               },
+               "cherry": {
+                   "name" : "Вишневый",
+                   "code" : "#d93639"
+               },
+               "grey": {
+                   "name" : "Серый графит",
+                   "code" : "#9a988c"
+               }
+            } ,
+            "parametersTitle": "Параметры",
+            "parameters" : {
+               "diameter": {
+                   "value" : "30 см",
+                   "icon" : "diameter"
+               },
+               "amount": {
+                   "value" : "8,35 л",
+                   "icon" : "bowl"
+               }
+               
+               }
+            } 
+
+        }
+    

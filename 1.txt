@@ -1,0 +1,85 @@
+1. initialize project - npm init -y
+2. git init
+3. touch(echo >) gulpfile.js
+4. npm install -D gulpjs/gulp#4.0
+5. npm install -D gulp-cssO
+6. npm install -g gulp cli
+7. mkdir -p sourse/style
+8. touch source/style/app.sass
+9. npm i -D gulp-load-plugins gulp-sass gulp-sourcemaps gulp-notify gulp-autoprefixer
+10. mkdir -p gulp/tasks
+11. echo > gulp/tasks/sass.js
+12. mkdir -p source/template
+13. echo > source/template/index.pug
+14. npm i -D gulp-pug
+15. echo > gulp/tasks/pug.js
+16. mkdir gulp/paths
+17. echo > gulp/paths/tasks.js
+18. npm i -D del
+19. echo > gulp/paths/clen.js
+20. echo > gulp/tasks/{
+    serve.js, watch.js
+}
+21. npm i -D browser-sync
+
+22. social links
+
+ul.socials
+            each item in ['vk', 'gh', 'in']
+                li.socials__item
+                    a(href="#" class=`socials__link socials__link_${item}`)
+
+23. dividing content & coding
+    a) content.json
+    {
+    "skills" : [
+        {
+            "Frontend" : ["HTML5", "CSS3", "Javascript & Jquery"]
+        }, 
+            {
+                "Backend" : ["PHP", "mySQL", "Nodejs & npm", "Mongo.db"]
+            },
+            {
+                "Workflow" : ["Git", "Gulp", "Bower"]
+            }
+    ]
+}
+    b)code
+     ul.skills
+                    each skill in skills
+                        each skillsArray, skillName in skill
+                            li.skills__item
+                                .skill-section
+                                    .skill-section__title= skillName
+                                ul.skill-section__list
+                                    each skillTitle in skillsArray
+                                        li.skill-section__item
+                                            .skill
+                                                svg.skill__circle
+                                                    .skill__name= skillTitle
+
+
+{
+    "window.menuBarVisibility": "toggle",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false, 
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Operator Mono Medium",
+    "editor.fontSize": 16,
+    "editor.renderIndentGuides": true,
+     "workbench.colorCustomizations": {
+        "sideBar.background": "#1D344C",
+        "ideBarSectionHeader.background": "#1D344C",
+        "sideBarTitle.foreground": "#FFFFFF",
+        "list.hoverBackground": "#536170",
+        "activityBar.background": "#1B2632"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0
+}
+
+
+C:\Users\kostyantin\AppData\Local\Lxss\
+
+bitbucket - git remote add origin https://Podyankee@bitbucket.org/Podyankee/eshop-site.git

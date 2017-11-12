@@ -1,0 +1,38 @@
+mixin title (title, url, additionClass)
+    .title(style=`background-image: url('assets/img/decor/${url}');` class=additionClass)= title
+
+mixin icon(name,mod)
+    - mod = mod || ''
+    svg(class="icon icon-" + name + ' ' + mod)
+        use(xlink:href="assets/img/sprite.svg#" + name)
+mixin paymentType(icon)
+    li.payment-type__item
+        +icon(icon)
+mixin footerNavLink(title)
+    li.footer-nav__item
+        a(href="#").footer-nav__link= title
+
+mixin productLineInfo(key,val)
+    .product-line-info
+        span.product-prev__key= key
+        span.product-prev__val= val
+
+mixin shareLine(icon,link, title)
+    .share-line
+        +icon(icon)
+        a(href= link)= title
+mixin tabsLink(dataShow, text)
+    li.tabs-list__item(show-tab= dataShow)&attributes(attributes)
+        span.tabs-list__text= text
+mixin charLine(key, val)
+    tr
+        td.product-characteristic__key
+            span= key
+        td.product-characteristic__key
+            span= val
+mixin man-list__item(icon, link, title)
+    li
+        a(href= link)
+            span= title
+            +icon(icon)
+        
